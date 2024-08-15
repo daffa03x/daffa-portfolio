@@ -50,14 +50,13 @@ const AboutPage = () => {
             </motion.h1>
             {/* SKILL LIST */}
             <motion.div initial={{ x: "-300px" }} animate={isSkillRefInView ? { x: 0 } : {}} className="flex gap-4 flex-wrap">
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">HTML</div>
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">CSS</div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">JavaScript</div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">React.js</div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">Tailwind CSS</div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">MongoDB</div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">PostgreSQL</div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">PHP</div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">Laravel</div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">Lumen</div>
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">Next JS</div>
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">MySQL</div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">Git</div>
             </motion.div>
             {/* SKILL SCROLL SVG */}
@@ -83,9 +82,9 @@ const AboutPage = () => {
                 {/* LEFT */}
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
-                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">Fullstack Web Developer</div>
+                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">Fullstack Developer</div>
                   {/* JOB DESC */}
-                  <div className="p-3 text-sm italic">I specialize in web development, offering expertise in PHP frameworks. </div>
+                  <div className="p-3 text-sm italic"> Melakukan Analisis kebutuhan Pembuatan ERD Pembuatan Website sistem informasi Tools : Laravel, MySQL, MySQL workbench dan Git Hub</div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">2022 - 2022</div>
                   {/* JOB COMPANY */}
@@ -119,9 +118,9 @@ const AboutPage = () => {
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">Web Developer</div>
                   {/* JOB DESC */}
-                  <div className="p-3 text-sm italic">I specialize in web development, offering expertise in PHP frameworks. </div>
+                  <div className="p-3 text-sm italic"> Melakukan pemeliharaan website yang berjalan Melakukan penambahan fitur-fitur pada website Monitoring website yang berjalan Tools : Laravel ,Next JS , MySQL, Postman, Niaga Hoster dan Git Lab</div>
                   {/* JOB DATE */}
-                  <div className="p-3 text-red-400 text-sm font-semibold">2019 - present</div>
+                  <div className="p-3 text-red-400 text-sm font-semibold">2023 - present</div>
                   {/* JOB COMPANY */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">PT Yooka Ariana Niaga</div>
                 </div>
